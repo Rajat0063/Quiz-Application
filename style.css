@@ -65,10 +65,33 @@ body{
     transition: 0.3s ease;
 }
 
+.config-option button.active {
+    color: #5145BA;
+    border-color: #5145BA;
+    background: #dad5fd;
+}
+
 .config-option button:hover {
     background: #dad5fd;
 }
 
 .question-option button {
     flex: 1 1 10%;
+}
+
+.config-container .start-quiz-btn {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    background: #5145BA;
+    padding: 13px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.config-container .start-quiz-btn:hover {
+    background: #403795;
 }
