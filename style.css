@@ -18,6 +18,7 @@ body{
 }
 
 .config-container {
+    display: none;
     width: 415px;
     padding: 25px;
     text-align: center;
