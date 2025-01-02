@@ -54,31 +54,12 @@
         </header>
 
         <div class="quiz-content">
-            <h1 class="quiz-question">In JavaScript, how do you create a function?</h1>
-            <ul class="answer-options">
-                <li class="answer-option">
-                    <p>create function myFunction()</p>
-                </li>
-                <li class="answer-option correct">
-                    <p>function myFunction()</p>
-                    <span class="material-symbols-rounded">
-                        check_circle
-                    </span>
-                </li>
-                <li class="answer-option incorrect">
-                    <p>def function myFunction()</p>
-                    <span class="material-symbols-rounded">
-                        cancel
-                    </span>
-                </li>
-                <li class="answer-option">
-                    <p>func myFunction()</p>
-                </li>
-            </ul>
+            <h1 class="quiz-question"></h1>
+            <ul class="answer-options"></ul>
         </div>
 
         <div class="quiz-footer">
-            <p class="question-status"><b>2</b> of <b>10</b> Questions</p>
+            <p class="question-status"></p>
             <button class="next-question-btn">
                 Next
                 <span class="material-symbols-rounded">
@@ -90,8 +71,17 @@
 
     <!-- Quiz Result Container -->
      <div class="result-container">
-        <img src="quiz-over.png" alt="" class="result-img">
+        <img src="/assets/quiz-over.png" alt="image" class="result-img">
+        <h2 class="result-title">Quiz Completed!</h2>
+        <p class="result-message">You answered <b>3</b> out of <b>5</b> questions correctly. Great effort!</p>
+        <button class="try-again-btn">Try Again</button>
      </div>
+
+     <!-- Linking the JavaScript 'question.js' File -->
+      <script src="/JavaScript/questions.js"></script>
+      <!-- Linking the JavaScript 'script.js' File -->
+       <script src="/JavaScript/script.js"></script>
+
 </body>
 
 </html>
