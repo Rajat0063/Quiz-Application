@@ -7,8 +7,7 @@
     <title>Qduiz Application Design</title>
     <link rel="stylesheet" href="style.css">
     <!-- Linking Google Fonts for Icons -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=timer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon" />
 </head>
 
 <body>
@@ -60,16 +59,32 @@
                 <li class="answer-option">
                     <p>create function myFunction()</p>
                 </li>
-                <li class="answer-option">
+                <li class="answer-option correct">
                     <p>function myFunction()</p>
+                    <span class="material-symbols-rounded">
+                        check_circle
+                    </span>
                 </li>
-                <li class="answer-option">
+                <li class="answer-option incorrect">
                     <p>def function myFunction()</p>
+                    <span class="material-symbols-rounded">
+                        cancel
+                    </span>
                 </li>
                 <li class="answer-option">
-                    <p>func myFunction()</p>s
+                    <p>func myFunction()</p>
                 </li>
             </ul>
+        </div>
+
+        <div class="quiz-footer">
+            <p class="question-status"><b>2</b> of <b>10</b> Questions</p>
+            <button class="next-question-btn">
+                Next
+                <span class="material-symbols-rounded">
+                    arrow_right_alt
+                </span>
+            </button>
         </div>
     </div>
 </body>
