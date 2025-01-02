@@ -21,7 +21,7 @@ const showQuizResult = () => {
     quizContainer.style.display = "none";
     resultContainer.style.display = "block";
 
-    const resultText =`You answered <b>${correctAnswersCount}</b> out of <b>${numberOfQuestions}</b> questions correctly. Great effort!`;
+    const resultText = `You answered <b>${correctAnswersCount}</b> out of <b>${numberOfQuestions}</b> questions correctly. Great effort!`;
     document.querySelector(".result-message").innerHTML = resultText;
 }
 
@@ -42,6 +42,7 @@ const startTimer = () => {
             clearInterval(timer);
             highlightCorrectAnswer();
             nextQuestionBtn.style.visibility = "visible";
+            quizContainer.querySelector(".quiz-timer").style.background = "#c31402";
 
             // Disable all answer options after one option is selected
             answerOptions.querySelectorAll(".answer-option").forEach(option => option.computedStyleMap.pointerEvents = "none");
@@ -104,6 +105,7 @@ const renderQuestion = () => {
     // Update the UI
     answerOptions.innerHTML = "";
     nextQuestionBtn.style.visibility = "hidden";
+    quizContainer.querySelector(".quiz-timer").style.background = "#32313c";
     document.querySelector(".quiz-question").textContent = currentQuestion.question;
     questionStatus.innerHTML = `<b>${questionsIndexHistory.length}</b> of <b>${numberOfQuestions}</b> Questions`;
 
@@ -120,10 +122,22 @@ const renderQuestion = () => {
 // Start the quiz and render the random question
 const startQuiz = () => {
     configContainer.style.display = "none";
-    quizContainer.style.display = "block";  
-    
-    renderQuestion(); 
+    quizContainer.style.display = "block";
+
+    // Update the quiz category and number of questions
+    quizCategory = configContainer.querySelector(".category-option.active").textContent;
+    numberOfQuestions = parseInt(configContainer.querySelector(".question-option.active").textContent);
+
+    renderQuestion();
 }
+
+// Highlight the selected option on click - category or no. of question
+document.querySelectorAll(".category-option, .question-option").forEach(option => {
+    option.addEventListener("click", () => {
+        option.parentNode.querySelector(".active").classList.remove("active");
+        option.classList.add("active");
+    });
+});
 
 // Reset the quiz and return to the configuration container
 const resetQuiz = () => {
