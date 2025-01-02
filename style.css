@@ -25,6 +25,7 @@ body{
 }
 
 .config-container {
+    display: block;
     width: 415px;
     padding: 25px;
     text-align: center;
@@ -111,7 +112,6 @@ body{
 /* Quiz Container */
 
 .quiz-container {
-    display: block;
     width: 480px;
 }
 
