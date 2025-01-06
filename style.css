@@ -14,7 +14,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #5145BA;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 :where(.config-container, .quiz-container, .result-container){
@@ -91,7 +91,7 @@ body{
     color: #fff;
     border: none;
     cursor: pointer;
-    background: #5145BA;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 13px 25px;
     font-size: 1rem;
     font-weight: 500;
