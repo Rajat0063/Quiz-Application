@@ -264,133 +264,174 @@ const questions = [
   },
 
   {
-    category: "mathematics",
+    category: "Principles of Management",
     questions: [
       {
-        question: "What is the square root of 144?",
-        options: ["10", "11", "12", "13"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is 15 × 13?",
-        options: ["180", "185", "195", "200"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the value of 8³?",
-        options: ["512", "216", "256", "128"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is 48 ÷ 6?",
-        options: ["7", "8", "9", "10"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the value of 3 + 5 × 4?",
-        options: ["20", "22", "24", "23"],
+        question: "Which one of these is a not a management function?",
+        options: ["Planning", "Organizing", "Directing", "Coordination"],
         correctAnswer: 3,
       },
       {
-        question: "What is the sum of the angles in a triangle?",
-        options: ["180°", "360°", "90°", "270°"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the perimeter of a square with a side length of 4 cm?",
-        options: ["12 cm", "16 cm", "20 cm", "24 cm"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is 11²?",
-        options: ["121", "131", "141", "111"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is 9 × 12?",
-        options: ["105", "110", "108", "120"],
+        question: "Which one of the following is not a key management skills?",
+        options: ["Human skills", "Conceptual skills", "Writing skills", "Technical skills"],
         correctAnswer: 2,
       },
       {
-        question: "What is the value of 16 ÷ 4?",
-        options: ["2", "3", "4", "5"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is 25% of 200?",
-        options: ["30", "40", "50", "60"],
-        correctAnswer: 2,
-      },
-      {
-        question: "What is the area of a rectangle with length 5 cm and width 8 cm?",
-        options: ["40 cm²", "50 cm²", "55 cm²", "60 cm²"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the value of 10 ÷ 2 + 3?",
-        options: ["8", "7", "9", "6"],
+        question: "Which management function sets goals and objectives and creates specific plans to achieve them?",
+        options: ["Organizing", "Planning", "Controlling", "Directing"],
         correctAnswer: 1,
       },
       {
-        question: "What is 3 × 7 + 2?",
-        options: ["20", "21", "22", "23"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the greatest common divisor (GCD) of 24 and 36?",
-        options: ["4", "6", "8", "12"],
+        question: "Management by Objectives was given by:",
+        options: ["Henri Fayol", "Frederick W. Taylor", "Mary Parker Follett", "Peter Drucker"],
         correctAnswer: 3,
       },
       {
-        question: "What is the least common multiple (LCM) of 6 and 8?",
-        options: ["24", "32", "48", "56"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the value of 2³ × 3?",
-        options: ["12", "15", "18", "24"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the value of 10 × (5 + 3)?",
-        options: ["80", "70", "60", "50"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the value of 14 × 14?",
-        options: ["186", "196", "206", "216"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the sum of the first 10 positive integers?",
-        options: ["50", "55", "60", "65"],
-        correctAnswer: 1,
-      },
-      {
-        question: "What is 12 × 15?",
-        options: ["150", "160", "170", "180"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is the area of a circle with a radius of 3 cm? (Use π = 3.14)",
-        options: ["28.26 cm²", "31.42 cm²", "36.14 cm²", "39.14 cm²"],
-        correctAnswer: 0,
-      },
-      {
-        question: "What is the value of (8 + 2) × 3?",
-        options: ["30", "32", "34", "28"],
-        correctAnswer: 3,
-      },
-      {
-        question: "What is the value of 50% of 80?",
-        options: ["30", "35", "40", "45"],
+        question: "Human relations movement is a part of:",
+        options: ["Classical approach", "Quantitative approach", "Behavioral approach", "Contemporary perspective"],
         correctAnswer: 2,
       },
       {
-        question: "What is the value of 25 ÷ 5 × 3?",
-        options: ["12", "15", "18", "20"],
+        question: "Which of the following best describes the difference between mainstream and multistream management orientations?",
+        options: ["Mainstream focuses on stakeholder welfare, while multistream focuses on profit maximization.", "Mainstream emphasizes profit maximization, while multistream emphasizes multi-stakeholder well-being.", "Both focus solely on profit generation.", "Both are interchangeable terms."],
         correctAnswer: 1,
       },
+      {
+        question: "Individuals who manage the work of non-managerial employees are known as-",
+        options: ["First Line Managers", "Middle Managers", "Top Level Managers", "Operators"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Who proposed the ten managerial roles grouped around interpersonal relationships, sharing of information and decision making?",
+        options: ["Mintzberg", "Henry Fayol", "Kurt Lewin", "Peter F. Drucker"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which managerial level focuses primarily on translating the organization's strategy into operational tasks?",
+        options: ["Top-level managers", "Middle-level managers", "First-line managers", "Board of directors"],
+        correctAnswer: 1,
+      },
+      {
+        question: "What happens to the time spent on technical tasks as a manager advances to a higher organizational level?",
+        options: ["It increases significantly", "It stays the same", "It decreases", "It becomes the primary focus"],
+        correctAnswer: 2,
+      },
+      {
+        question: "As a 'Spokesperson,' the manager's main responsibility is to:",
+        options: ["Develop internal communication plans", "Represent the organization to outsiders by sharing important information", "Act as a mediator between team members", "Implement training programs"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Statement 1: Future of work demands less control and command. Statement 2: Successful departments and organizations don’t just happen-they are managed.",
+        options: ["Statement 1 is true", "Statement 2 is true", "Both the statements are true", "None of the statements is true"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which of the following statements challenges the universality of management?",
+        options: ["Different management functions are required in different cultural contexts.", "All organizations must plan, organize, lead, and control.", "Both small and large businesses benefit from management practices.", "Management principles are adaptable to various sectors."],
+        correctAnswer: 0,
+      },
+      {
+        question: "Which of the following is NOT one of the eight characteristics of excellent enterprises?",
+        options: ["Lean staff", "Close to the customer", "Focus solely on profit maximization", "Autonomy and entrepreneurship"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Statement 1: Employees offer challenging, exciting, and creative opportunities for meaningfulness of work. Statement 2: Successful managers often receive monetary rewards for their efforts.",
+        options: ["Statement 1 is true, Statement 2 is not true", "Statement 2 is true, Statement 1 is not true", "Both the statements are true", "Both the statements are not true"],
+        correctAnswer: 1,
+      },
+      {
+        question: "The unwritten, common rules and perceptions about relationships among people and between people and management form part of-",
+        options: ["Social Contract", "Psychological Contract", "People Contract", "Management Contract"],
+        correctAnswer: 0,
+      },
+      {
+        question: "The spread of indigenous production with Make in India globally has dramatically altered the business landscape. This is an example of-",
+        options: ["Social Forces", "Political Forces", "Environmental Forces", "Technological Forces"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Match the following: a.	Classical Approach    i.	Human Relations Movement b.	Behavioural Approach	ii.	Total Quality Management c.     Quantitative Approach	iii.	Contingency View d.	Contemporary Approach	iv.	Scientific Management",
+        options: ["a-iv, b-i, c-ii, d-iii", "a-i, b-iv, c-iii, d-ii", "a-ii, b-i, c-iv, d-iii", "a-ii, b-i, c-iii, d-iv"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Who proposed time and motion studies concerned with optimum utilization of labour, reducing fatigue, and improving performance by eliminating unnecessary hand and body movements?",
+        options: ["Henry Fayol", "F.W. Taylor", "Frank and Lillian Gilbreth", "Elton Mayo"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which of the following options shows the correct match for the management concepts and by whom it is propounded?",
+        options: ["Bureaucratic Organization- Max Weber, Hawthorne Studies- Elton Mayo, Theory X,Y- McGregor, System Approach- Chester Barnard", "Bureaucratic Organization- Robert Owen, Hawthorne Studies- Hofstede, Theory X,Y- Mayo, System Approach- Max Weber", "Bureaucratic Organization- McGregor, Hawthorne Studies- Maslow, Theory X,Y- Max Weber, System Approach- Hofstede", "Bureaucratic Organization- Chester Barnard, Hawthorne Studies- McGregor, Theory X,Y- Elton Mayo, System Approach- Max Weber"],
+        correctAnswer: 0,
+      },
+      {
+        question: "Statement 1: Entropy is the tendency to run down and die.  Statement 2: Subsystems depend on one another as parts of the system.",
+        options: ["Statement 1 is correct.", "Statement 2 is correct.", "Both the statements are correct.", "Both the statements are incorrect."],
+        correctAnswer: 2,
+      },
+      {
+        question: "Which of the following does not form part of the popular contingency variables in the contemporary management perspective?",
+        options: ["Organizational Size", "Routineness of task technology", "Synergy", "Environmental Uncertainty"],
+        correctAnswer: 2,
+      },
+      {
+        question: "The contingency-based view of the organization considers-",
+        options: ["Case View & Universalist View", "Case View & Synergistic View", "Universalist View & Synergistic View", "Only Universalist View"],
+        correctAnswer: 0,
+      },
+      {
+        question: "What is the primary role of feedback in a systems approach to management?",
+        options: ["To identify customer complaints only", "To ensure organizational rules are followed strictly", "To provide information that helps adjust processes and improve performance", "To keep communication one-directional"],
+        correctAnswer: 2,
+      },
+      {
+        question: "Name the philosophy devoted to continuous improvement and responding to customers' needs and expectations popularized by Edward Deming and Joseph Juran.",
+        options: ["Quality Circle", "Total Quality Management", "Quality Checks", "Optimum Quality Management"],
+        correctAnswer: 1,
+      },
+      {
+        question: "Standing plans are the ones that provide guidelines for activities to be performed repetitively. Which among the following is not a standing plan?",
+        options: ["Policies", "Rules", "Budget", "Procedures"],
+        correctAnswer: 0,
+      },
+      {
+        question: "The contingency-based view of the organization considers-",
+        options: ["Case View & Universalist View", "Case View & Synergistic View", "Universalist View & Synergistic View", "Only Universalist View"],
+        correctAnswer: 0,
+      },
+      {
+        question: "The contingency-based view of the organization considers-",
+        options: ["Case View & Universalist View", "Case View & Synergistic View", "Universalist View & Synergistic View", "Only Universalist View"],
+        correctAnswer: 0,
+      },
+      {
+        question: "The contingency-based view of the organization considers-",
+        options: ["Case View & Universalist View", "Case View & Synergistic View", "Universalist View & Synergistic View", "Only Universalist View"],
+        correctAnswer: 0,
+      },
+      {
+        question: "The contingency-based view of the organization considers-",
+        options: ["Case View & Universalist View", "Case View & Synergistic View", "Universalist View & Synergistic View", "Only Universalist View"],
+        correctAnswer: 0,
+      },
+        
+        {
+          question: "The contingency-based view of the organization considers-",
+          options: ["Case View & Universalist View", "Case View & Synergistic View", "Universalist View & Synergistic View", "Only Universalist View"],
+          correctAnswer: 0,
+        },
+        {
+          question: "The contingency-based view of the organization considers-",
+          options: ["Case View & Universalist View", "Case View & Synergistic View", "Universalist View & Synergistic View", "Only Universalist View"],
+          correctAnswer: 0,
+        },
+        {
+          question: "The contingency-based view of the organization considers-",
+          options: ["Case View & Universalist View", "Case View & Synergistic View", "Universalist View & Synergistic View", "Only Universalist View"],
+          correctAnswer: 0,
+        },
     ],
   },
 
